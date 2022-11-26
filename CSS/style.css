@@ -1,0 +1,424 @@
+body
+{
+   background-color:#FEFE33 ;
+   font-family: verdana;
+   overflow: auto;
+
+}
+.pasek
+{
+   background-image: url(https://i.pinimg.com/236x/c2/68/be/c268be4e77fd8ff77757e0d11acfaaab--board-games-bobby-fischer.jpg);
+   height: 100%;
+   width: 10%;
+   float: left;
+   position: relative;
+   }
+h1{
+   text-align: center;
+}
+h1,  h3, h4, h5, h6
+{
+   padding: 5px;
+
+ }
+  img
+{
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  margin: 0px;
+   transition: background-color 2s ease-out 100ms
+}
+header
+ {
+    position:relative;
+    background-color: #000;
+    width: 100%;
+    color: white;
+    height: 20%;
+    min-height:  80px;
+ }
+
+ header h2{
+  display: inline-block;
+    position: relative;
+    text-align: left;
+    
+    left: 5%;
+    
+ }
+
+.nav{
+
+    position: relative;
+    width: 100%;
+   
+}
+header h2, .nav a{
+  display: inline-block;
+
+    position:relative ;
+    Left: 5%;
+    font-size: 100%;
+
+    color: white;
+    text-decoration: none;
+    margin-right: 1% ;
+}
+.nwm
+ {
+    background-image: url(https://i.pinimg.com/236x/c2/68/be/c268be4e77fd8ff77757e0d11acfaaab--board-games-bobby-fischer.jpg);
+    width: auto;
+    
+    height: 236px;
+    /*top: 50px;
+    margin-bottom: 5px;*/
+ }
+
+table{ 
+   
+   border: 2px solid #343409;
+   background-color: #343409;
+  
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   border-spacing: 10px;
+   border-collapse: collapse;}
+
+tr td:first-of-type {
+    width :auto;
+}
+thead{
+  color: darkkhaki;
+}
+thead th :first-of-type {
+  width :auto;
+}
+ td {
+   color: #343409;
+   background-color: #FFFFDB;
+   border: 1px solid black;
+   width: 180px;
+   height: 50px;
+ }
+ 
+ 
+ .footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+ }
+ footer h2{
+   position: absolute;
+   text-align: center;
+   margin-top: 20px;
+   left: 20%;
+}
+ 
+ ul {
+   padding: 20px;
+   list-style-type: "→ ";
+   list-style-position: inside;
+ }
+ ul li{
+   
+   border: #000;
+   border-width: 2px;
+ }
+ img {
+
+   animation-delay: 1s;
+   position: relative;
+   animation-name: example;
+   animation-duration: 2s;
+ }
+ 
+ @keyframes example {
+   0%   { left:0px; top:0px;}
+   25%  { left:0px; top:0px;}
+   50%  { left:0px; top:10px;}
+   75%  { left:0px; top:10px;}
+   100% {left:0px; top:0px;}
+ }
+ /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+   background-color: transparent;
+   width: 250px;
+   height: 250px;
+   /*perspective: 1000px; /* Remove this if you don't want the 3D effect */
+ }
+ 
+ /* This container is needed to position the front and back side */
+ .flip-card-inner {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   transition: transform 0.8s;
+   transform-style: preserve-3d;
+ }
+ 
+ /* Do an horizontal flip when you move the mouse over the flip box container */
+ .flip-card:hover .flip-card-inner {
+   transform: rotateY(180deg);
+ }
+ 
+ /* Position the front and back side */
+ .flip-card-front, .flip-card-back {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   margin: 5px;
+   -webkit-backface-visibility: hidden; /* Safari */
+   backface-visibility: hidden;
+ }
+ 
+ /* Style the front side (fallback if image is missing) */
+ .flip-card-front {
+
+   color: black;
+ }
+ 
+ /* Style the back side */
+ .flip-card-back {
+
+   background-color: #343409;
+   color: #FEFE9A;
+   transform: rotateY(180deg);
+ }
+ 
+ a div:hover {
+  opacity: 1;
+}
+a div {
+  opacity: 0.8;
+}
+.menu:hover
+{
+  background-color: white;
+  color: #000;
+}
+
+.tabela td{
+  width: 500px;
+  width: 50%;
+}
+
+form, input, select, textarea {
+  margin:0; 
+  padding:0; 
+  color:#ffffff;
+}
+
+div.box {
+  margin:0 auto;
+  width:100%;
+  background:#222222;
+  position:relative;
+  top:50px;
+  border:1px solid #262626;
+}
+
+div.box h1 { 
+  color:#ffffff;
+  font-size:18px;
+  text-transform:uppercase;
+  padding:5px 0 5px 5px;
+  border-bottom:1px solid #161712;
+  border-top:1px solid #161712; 
+}
+
+div.box label {
+  width:100%;
+  display: block;
+  background:#1C1C1C;
+  border-top:1px solid #262626;
+  border-bottom:1px solid #161712;
+  padding:2% 0 2% 0;
+}
+
+div.box label span {
+  display: block;
+  color:#bbbbbb;
+  font-size:12px;
+  float:left;
+  width: 23%;
+  text-align:right;
+  padding:5px 20px 0 0;
+}
+
+div.box .wpis {
+  padding:1% 1%;
+  width:60%;
+  background:#262626;
+  border-bottom: 1px double #171717;
+  border-top: 1px double #171717;
+  border-left:1px double #333333;
+  border-right:1px double #333333;
+}
+
+div.box .wiadomosc {
+  padding:1% 1%;
+  text-align: left;
+  width:60%;
+  background:#262626;
+  border-bottom: 1px double #171717;
+  border-top: 1px double #171717;
+  border-left:1px double #333333;
+  border-right:1px double #333333;
+  overflow:hidden;
+  height:1%;
+  resize:none;
+}
+
+div.box .button	{
+  display: block;
+  margin:0 0 5% 0;
+  padding:1% 2%;
+  background:#FEFE33;
+  border:0px;
+  position: relative;
+  top:20px;
+  left:50%;
+  width:auto;
+  border-bottom: 1px double #CBCB01;
+  border-top: 1px double #CBCB01;
+  border-left:1px double #FFFFDB;
+  border-right:1px double #FFFFDB;
+}
+.column
+{
+  float: left;
+}
+
+.forma table{ 
+   
+  border: 2px solid #343409;
+  background-color: #343409;
+ 
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 10px;
+  border-collapse: collapse;}
+
+  .hidden
+  {
+    opacity: 0;
+    fill: blur(5px);
+    transform: translateX(-100%);
+    transition: all 2s;
+  }
+  .show
+  {
+
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+
+  }
+  dl {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    border: solid #333;
+    border-width: 1px 1px 1px 1px;
+  }
+  dt {
+    flex-basis: 20%;
+    padding: 2px 4px;
+    background: #333;
+    text-align: right;
+    color: #fff;
+    border: solid #FEFE33;
+    border-width: 1px 1px 1px 1px;
+   
+  }
+  dd {
+    flex-basis: 70%;
+    flex-grow: 1;
+    margin: 0;
+    padding: 2px 4px;
+    border-bottom: 1px solid #333;
+    
+  }
+  select
+  {
+    color:#000;
+  }
+  button{
+    text-align: center;
+  }
+  @media screen  and (max-width : 600px){
+    body{
+      color: darkmagenta;
+    }
+    
+ 
+    div, img, .flip-card-front, .flip-card-back, .flip-card   {
+     display: block;
+     margin: auto;
+      text-align: center;
+    }
+
+  }
+  @media screen and (min-width: 601px) {
+    .bok
+ {
+   float: left;
+ }
+ div.box label span{
+  font-size: 15px;
+ }
+ .prawy
+ {
+   float: right;
+ }
+.flip-card-front, .flip-card-back, .flip-card   {
+  width: 300px;
+  height: 300px;
+ }
+ img{
+  width: 280px;
+  height: 280px;
+  margin: auto;
+ }
+  }
+  @media screen and (min-width: 800px) {
+    .bok
+ {
+   float: left;
+ }
+ div.box label span{
+  font-size: 20px;
+ }
+ span{
+  font-size: 20px;
+ }
+  .flip-card-front, .flip-card-back, .flip-card   {
+  width: 350px;
+  height: 350px;
+ }
+ img
+ {margin: auto;
+  width: 330px;
+  height: 330px;
+ }
+ tr td:first-of-type {
+  width :auto;
+}
+thead th :first-of-type {
+width :auto;
+}
+td {
+
+ width: 330px;
+ height: 50px;
+}
+
+  }
